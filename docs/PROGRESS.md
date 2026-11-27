@@ -69,3 +69,19 @@
   explicitly off. Ruff passed and pytest reported `2 passed` after this change.
 - The mock engine test writes to a directory containing spaces. Batch files
   retain CRLF line endings.
+
+## 2026-11-27 13:23 Asia/Dhaka — Phase 0 PR and Actions follow-up
+
+- Commit `0dc1281` was pushed to `origin/phase/0-scaffold`.
+- GitHub CLI authentication is now active for `Tanmoy095`.
+- Created PR [#1](https://github.com/Tanmoy095/kothok-studio/pull/1), updated
+  its body to the required template, and reviewed the hosted diff with
+  `gh pr diff 1`.
+- Set the requested repository description and all listed topics.
+- GitHub reports the repository is public. The Phase 0 commit contains no voice
+  data, but the owner should make it private before adding personal samples.
+- CI was retried. GitHub's check annotation says the job was not started due to
+  an account-level restriction. The job has `runner_id=0`, no steps, and no logs.
+- Local checks remain green: Ruff passed; pytest `2 passed`; local UI HTTP 200.
+- Commit for this follow-up log: pending. PR merge and tag are blocked until
+  the owner resolves the account restriction and the CI gate passes.
